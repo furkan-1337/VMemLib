@@ -3,7 +3,8 @@
 **VMemLib** is a C# library for reading and writing memory of target processes. It provides safe and flexible access to process memory, supports reading and writing various data types, and includes helper functions for matrix and world-to-screen calculations.  
 
 > ⚠️ **For educational purposes only. Do not use on software you do not own or have permission to access.**
-
+[![NuGet](https://img.shields.io/nuget/v/VMemLib.svg)](https://www.nuget.org/packages/VMemLib/)
+> 
 ## Features
 - Open and manage target processes
 - Read and write memory
