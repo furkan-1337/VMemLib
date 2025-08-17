@@ -30,12 +30,6 @@
 - Inherits from `vmem_base`.
 - Implements standard process memory access via OpenProcess.
 
-# VMemLib.HandleHijack [![NuGet](https://img.shields.io/nuget/v/VMemLib.HandleHijack.svg)](https://www.nuget.org/packages/VMemLib.HandleHijack/)
-
-### `vmem_h` 
-- Inherits from `vmem_base`.
-- Uses handle hijacking to obtain enhanced access to target processes.
-
 ## Usage Example
 
 ```csharp
@@ -47,3 +41,10 @@ if(result == types.InitializeResult.Ok)
     var value = memory.Read<int>(memory.BaseAddress + 0x1234);
     memory.Write(memory.BaseAddress + 0x1234, 42);
 }
+```
+
+# VMemLib.HandleHijack [![NuGet](https://img.shields.io/nuget/v/VMemLib.HandleHijack.svg)](https://www.nuget.org/packages/VMemLib.HandleHijack/)
+
+### `vmem_h` 
+- Inherits from `vmem_base`.
+- Uses handle hijacking to obtain enhanced access to target processes.
