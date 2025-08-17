@@ -30,7 +30,7 @@
 - Inherits from `vmem_base`.
 - Implements standard process memory access via OpenProcess.
 
-### `vmem_h`
+### `vmem_h` [![NuGet](https://img.shields.io/nuget/v/VMemLib.HandleHijack.svg)](https://www.nuget.org/packages/VMemLib.HandleHijack/)
 - Inherits from `vmem_base`.
 - Uses handle hijacking to obtain enhanced access to target processes.
 
